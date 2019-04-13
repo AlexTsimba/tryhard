@@ -5,14 +5,37 @@ body {
 	height: 100vh;
 	background: #ecb335 url(../img/background.png) no-repeat center;
 	background-size: cover;
-	overflow: visible;
 }
 .container {
-	width: 1170px;
+	max-width: 1170px;
 	margin: 0 auto;
-	border: 5px solid red;
+	border: 5px solid green;
 }
-.wayup-logo {
-	height: 82px;
-	width: 82px;	
+	
+.logo {
+	margin-top:5%;
+	display:flex;
+	align-items: center;
+}
+		
+.logo-text {
+	display: inherit;
+	flex-direction: column;
+}
+h1, h2, h3 {
+	margin: 0;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 37px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 15px;
 }
