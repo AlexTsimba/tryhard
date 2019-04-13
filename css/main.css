@@ -1,5 +1,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 .wayup-header {
 	height: 100vh;
@@ -8,12 +9,10 @@ body {
 }
 .container {
 	max-width: 1170px;
-	margin: 0 auto;
-	border: 5px solid green;
+	margin: 0 7% auto;
 }
-	
 .logo {
-	margin-top:5%;
+	padding: 50px 0;
 	display:flex;
 	align-items: center;
 }
@@ -22,7 +21,8 @@ body {
 	display: inherit;
 	flex-direction: column;
 }
-h1, h2, h3 {
+
+h1, h2, h3, .font-superbold {
 	margin: 0;
 	font-weight: 800;
 	text-transform: uppercase;
@@ -38,4 +38,12 @@ h2 {
 
 h3 {
 	font-size: 15px;
+}
+
+.offer {
+	padding-top: 375px;
+}
+.offer p {
+	font-size: 20px;
+	font-family: "Open Sans";
 }
