@@ -8,6 +8,7 @@ body {
 	background-size: cover;
 }
 .container {
+	max-width: 1170px;
 	margin: 0 7% auto;
 }
 .logo {
@@ -40,35 +41,9 @@ h3 {
 }
 
 .offer {
-	margin-bottom: 375px;
+	padding-top: 375px;
 }
 .offer p {
 	font-size: 20px;
 	font-family: "Open Sans";
 }
-.section {
-	height: 100vh;
-	padding-top: 130px;
-}
-.photo {
-	display: flex;
-	justify-content: space-between;
-	max-width:100%;
-	height: auto
- }
-
-.img {
-	max-width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
