@@ -7,7 +7,7 @@ body {
 	background: #ecb335 url(../img/background.png) no-repeat center;
 	background-size: cover;
 }
-.container {
+.container, .advantages {
 	max-width: 1170px;
 	margin: 0 7% auto;
 }
@@ -47,3 +47,37 @@ h3 {
 	font-size: 20px;
 	font-family: "Open Sans";
 }
+
+.section {
+	height: 100vh;
+	padding-top: 130px;
+}
+.unit {
+	width: 340px;
+	background: url('../img/icon1.jpg') no-repeat left top;
+	padding-left: 87px;
+	padding-top: 15px;
+}
+
+.unit:nth-child(2) {
+	background: url('../img/icon2.jpg') no-repeat left top;
+}
+
+.unit:nth-child(3) {
+	background: url('../img/icon3.jpg') no-repeat left top;
+}
+
+
+.images {  
+display: block;
+max-width: 100%;
+height: auto;
+}
+	/*
+	display: flex;
+	justify-content: space-between;
+	max-width:100%;
+	height: auto
+}
+
+
